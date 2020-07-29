@@ -1,38 +1,320 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1abc9c;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+header{
+    z-index: 100;
+    padding: 20px 0;
+    height: 60px;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-transform: uppercase;
+}
+.container{
+    display: grid;
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+    grid-template-columns: 6fr 1fr 1fr 1fr
+}
+.logo{
+    padding-left: 20px;
+    text-align: left !important;
+}
+.nav-item{
+    justify-self: stretch;
+    text-align: center;
+    box-sizing: border-box;
+    transition: .2s , opacity 1s;
+}
+.ham-icon{
+    display: none;
+    float: right;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ==========================================================================
+   Main
+   ========================================================================== */
+main{
+    clear: both;
+}
+.main{
+    background:  linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+    ),url('./img/42.jpg') no-repeat center center;
+    box-sizing: border-box;
+    height: 99vh ;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: cover;
+}
+.about{
+    background:  linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+    ),url('./img/me.jpg') no-repeat center center;
+    box-sizing: border-box;
+    filter: grayscale(100) contrast(1.1);
+    background-size: cover;
+
+}
+h3{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+
+}
+.aboutMe{
+    max-width: 760px;
+    margin: auto;
+    padding: 50px 0;
+
+    line-height: 3em;
+    color: rgba(68, 68, 68, 0.85);
+}
+.meeting{
+    margin-top: calc(50vh - 10%);
+}
+.meeting p{
+    padding: 20px;
+}
+h1{
+    font-size: 4em;
+    font-weight: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+    text-align: center;
+    margin: 60px 20px 20px;
+    font-size: 2em;
+    color: #3c3c3c;
+}
+.projects{
+    text-align: center;
+}
+.projects-container{
+    display: grid;
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto 0 auto;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-gap: 20px 20px;
+}
+.project-item{
+    height: 250px;
+    width: 250px;
+    /*background-color: #858585;*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.project-item:nth-child(1){
+    background: url('./img/lumber.jpg') no-repeat center center;
+}
+.project-item:nth-child(2){
+    background: url('img/music.jpg') no-repeat center center;
+}
+.project-item:nth-child(3){
+    background: url('./img/calendar.jpg') no-repeat center center;
+}
+.project-item:nth-child(4){
+    background: url('./img/animation.jpg') no-repeat center center;
 }
 
-.App-link {
-  color: #61dafb;
+.project-item:nth-child(5){
+    background: url('./img/task.jpg') no-repeat center center;
+}
+.project-item:nth-child(6){
+    background: url('./img/parser.jpg') no-repeat center center;
+}
+.project-item:nth-child(7){
+    background: url('./img/form.jpg') no-repeat center center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-item:nth-child(8){
+    background: url('./img/menu.jpg') no-repeat center center;
+}
+.project-item:nth-child(9){
+    background: url('./img/landing.jpg') no-repeat center center;
+}
+.project-item:nth-child(n){
+    box-sizing: border-box;
+    background-size: cover;
+    filter: grayscale(100);
+}
+
+
+.project-item:hover{
+    /*transform: scale(1.05);
+    box-shadow: 0 6px 8px -4px black;
+    transition: ease-in-out .2s;
+     */
+    transition: ease-in-out .2s;
+    filter: grayscale(0);
+}
+.project-item a{
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    content: '';
+    display: block;
+}
+
+ul{
+    margin-left: 15px;
+}
+
+footer{
+    background-color: #e5e5e5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.linkedin{
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    background: url('./img/linked.png') no-repeat center center;
+    box-sizing: border-box;
+    background-size: cover;
+    filter: grayscale(100);
+}
+.linkedin:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.linkedin a{
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    content: '';
+    display: block;
+}
+
+input, textarea{
+    padding-left:15px;
+    display:block;
+    height:38px;
+    width:100%;
+    max-width:580px;
+    border:1px solid #9b9b9b;
+    font-size: 12px;
+    color: rgba(190, 190, 190, 255);
+    margin:0 0 16px 0px;
+    box-sizing: border-box;
+}
+.form{
+    display:block;
+    margin:25px auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    max-width:700px;
+    width:100%;
+}
+
+
+legend h4{
+    text-align: center;
+    padding-right: 120px;
+    font-family:"Maven Pro Regular",sans-serif;
+    font-weight:100;
+    font-size: 30px;
+    color: rgba(224, 224, 224, 255);
+}
+
+legend p{
+    margin-top: -2px;
+    font-size: 17px;
+    color: rgba(190, 190, 190, 255);
+    margin-bottom: 20px;
+}
+
+
+
+.after-form{
+    font-family:"Maven Pro Regular",sans-serif;
+    margin-top:130px;
+    vertical-align:top;
+    font-weight:100;
+    display:inline-block;
+
+}
+
+.after-form>p{
+    line-height:21px;
+    width:180px;
+    font-size: 12px;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+.copy{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-size: 8.65655px;
+    height:43px;
+    line-height:43px;
+    padding-left:39px;
+    box-sizing: border-box;
+}
+
+textarea{
+    font-family:"Maven Pro Regular",sans-serif;
+    height:150px;
+    padding-top:13px;
+    resize:none;
+}
+
+.button{
+    float:right;
+    border:none;
+    background-color: #2eb398;
+    color:white;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-size:11px;
+    cursor: pointer;
+}
+contact a{
+    color: black;
+}
+
+@media screen and (max-width:760px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .nav-item{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    .ham-icon{
+        display: block;
+        text-align: right;
+        padding-right: 20px;
+        height: 18px;
+        position: relative;
+        top: -3px;
+    }
+    
 }
