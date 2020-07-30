@@ -16,31 +16,48 @@ const Main = () => {
           <h2>My Portfolio</h2>
           <div className="projects-container">
             <div className="project-item">
-              <a href="https://diesel167.github.io/lumber_calc/"></a>
+              <a href="https://diesel167.github.io/lumber_calc/">
+                <i className="fa fa-phone" aria-hidden="true"/></a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/songs/"></a>
+              <a href="https://diesel167.github.io/songs/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/calendar/"></a>
+              <a href="https://diesel167.github.io/calendar/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/piskel/piskel-clone/src/components/landing/"></a>
+              <a href="https://diesel167.github.io/piskel/piskel-clone/src/components/landing/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/taskManager/"></a>
+              <a href="https://diesel167.github.io/taskManager/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://github.com/diesel167/devbyparser"></a>
+              <a href="https://github.com/diesel167/devbyparser">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/test/"></a>
+              <a href="https://diesel167.github.io/test/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/hamburger/"></a>
+              <a href="https://diesel167.github.io/hamburger/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
             <div className="project-item">
-              <a href="https://diesel167.github.io/hexal/"></a>
+              <a href="https://diesel167.github.io/hexal/">
+                <i className="fa fa-phone" aria-hidden="true"/>
+              </a>
             </div>
           </div>
         </div>

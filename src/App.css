@@ -32,8 +32,14 @@ header{
     grid-template-columns: 6fr 1fr 1fr 1fr
 }
 .logo{
+    font-weight: 900;
+    position: relative;
+    bottom: 2px;
     padding-left: 20px;
     text-align: left !important;
+}
+.logo a{
+    color: #1abc9c !important;
 }
 .nav-item{
     justify-self: stretch;
@@ -50,7 +56,7 @@ header{
    Main
    ========================================================================== */
 main{
-    clear: both;
+    text-align: center;
 }
 .main{
     background:  linear-gradient(
@@ -73,8 +79,11 @@ main{
     box-sizing: border-box;
     filter: grayscale(100) contrast(1.1);
     background-size: cover;
-
 }
+.contact{
+    line-height: calc(99vh - 100px);
+}
+
 h3{
     font-size: 2em;
     font-weight: 100;
@@ -85,10 +94,28 @@ h3{
     max-width: 760px;
     margin: auto;
     padding: 50px 0;
-
     line-height: 3em;
     color: rgba(68, 68, 68, 0.85);
 }
+.aboutMe a{
+    color: rgba(68, 68, 68, 0.85);
+    text-decoration: underline;
+    animation: scaling 2s infinite;
+}
+
+@keyframes scaling {
+    0% {
+        margin-left: 50px;
+    }
+    50% {
+        margin-left:-50px;
+    }
+    100% {
+        margin-left:50px;
+    }
+}
+
+
 .meeting{
     margin-top: calc(50vh - 10%);
 }
@@ -120,10 +147,7 @@ h2{
 .project-item{
     height: 250px;
     width: 250px;
-    /*background-color: #858585;*/
 }
-
-
 
 .project-item:nth-child(1){
     background: url('./img/lumber.jpg') no-repeat center center;
@@ -160,12 +184,7 @@ h2{
     filter: grayscale(100);
 }
 
-
 .project-item:hover{
-    /*transform: scale(1.05);
-    box-shadow: 0 6px 8px -4px black;
-    transition: ease-in-out .2s;
-     */
     transition: ease-in-out .2s;
     filter: grayscale(0);
 }
@@ -180,13 +199,18 @@ h2{
 ul{
     margin-left: 15px;
 }
-
+ul li{
+    text-align: left;
+}
 footer{
     background-color: #e5e5e5;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
+.is-active{
+    color: #1abc9c;
+}
 
 .linkedin{
     margin: auto;
@@ -217,60 +241,34 @@ input, textarea{
     max-width:580px;
     border:1px solid #9b9b9b;
     font-size: 12px;
-    color: rgba(190, 190, 190, 255);
-    margin:0 0 16px 0px;
+    color: rgba(68, 68, 68, 0.85);
+    margin:0 0 16px 0;
     box-sizing: border-box;
 }
+
 .form{
     display:block;
-    margin:25px auto;
-    margin-bottom: 50px;
-    padding: 5px;
+    margin: 25px auto 50px;
+    padding: 5px 5px 5px 65px;
     box-sizing: border-box;
     max-width:700px;
     width:100%;
 }
 
-
 legend h4{
     text-align: center;
-    padding-right: 120px;
+    padding-right: 100px;
     font-family:"Maven Pro Regular",sans-serif;
     font-weight:100;
     font-size: 30px;
-    color: rgba(224, 224, 224, 255);
+    color: #929292;
 }
 
-legend p{
-    margin-top: -2px;
-    font-size: 17px;
-    color: rgba(190, 190, 190, 255);
-    margin-bottom: 20px;
-}
-
-
-
-.after-form{
-    font-family:"Maven Pro Regular",sans-serif;
-    margin-top:130px;
-    vertical-align:top;
-    font-weight:100;
-    display:inline-block;
-
-}
-
-.after-form>p{
-    line-height:21px;
-    width:180px;
-    font-size: 12px;
-    color: rgba(224, 224, 224, 255);
-    text-align: justify;
-}
 .copy{
     position:absolute;
     bottom:0;
     width:100%;
-    font-size: 8.65655px;
+    font-size: 8px;
     height:43px;
     line-height:43px;
     padding-left:39px;
@@ -282,25 +280,56 @@ textarea{
     height:150px;
     padding-top:13px;
     resize:none;
+    color: rgba(68, 68, 68, 0.85);
 }
 
-.button{
+textarea::placeholder{
+    color: rgba(161, 161, 161, 0.85);
+}
+input::placeholder{
+    color: rgba(161, 161, 161, 0.85);
+}
+
+.btn{
     float:right;
-    border:none;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
     background-color: #2eb398;
     color:white;
     text-transform: uppercase;
-    padding: 12px 30px;
     font-size:11px;
+}
+.btn button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border:none;
+    outline: none;
+    background-color: transparent;
     cursor: pointer;
 }
-contact a{
+.contact a{
     color: black;
+}
+.footermail{
+    max-width: 1024px;
+    text-align: right;
+    padding-right: 5px;
+    margin: 0 auto -20px auto;
+    font-size: .8em;
+    color: #3c3c3c;
 }
 
 @media screen and (max-width:760px){
     .container{
         grid-template-columns: 1fr 1fr;
+    }
+    .form {
+        padding-left: 8%;
     }
     .nav-item{
         display: none;

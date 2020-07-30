@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-
+//            <Link to='/'>Home</Link>
 const Header = () => {
   const parser = new DOMParser();
   const decodedString = parser.parseFromString(`&#9776`, 'text/html').body.textContent;
@@ -12,13 +12,13 @@ const Header = () => {
             <Link to='/'>Yury M.</Link>
           </div>
           <div className="nav-item">
-            <Link to='/'>Home</Link>
+            <NavLink exact={true} activeClassName='is-active' to='/'>Home</NavLink>
           </div>
           <div className="nav-item">
-            <Link to='/about'>About</Link>
+            <NavLink exact={true} activeClassName='is-active' to='/about'>About</NavLink>
           </div>
           <div className="nav-item">
-            <Link to='/contact'>Contact</Link>
+            <NavLink exact={true} activeClassName='is-active' to='/contact'>Contact</NavLink>
           </div>
           <div className="mobile-header">
             <div className="ham-icon" onClick={()=>{

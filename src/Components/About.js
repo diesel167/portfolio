@@ -12,13 +12,12 @@ const About = () => {
             Scopes (EPAM) and now am ready to apply my skills
             and grow up as developer. Also:</p>
           <ul>
+            <li>Have worked for 5 years as civil engineer</li>
             <li>Graduated from the university in the top 10 in faculty.</li>
-            <li>Live in Minsk, Belarus.</li>
-            <li>26 years old</li>
-            <li>Married</li>
-            <li>170 cm. 63 kg</li>
-            <li>Green eyes</li>
+            <li>Live in Minsk, Belarus for 26 years</li>
+            <li>Like photography, hockey, building</li>
           </ul>
+          <a href="https://yadi.sk/i/hUb4NiUX3kLzig">Download CV</a>
         </div>
       </>
   );

@@ -6,17 +6,24 @@ import Contact from "./Components/Contact";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import { Switch, Route } from 'react-router-dom';
-
-function App() {
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
+function App({location}) {
   return (
     <div className="App">
       <Header/>
       <main>
-        <Switch>
-          <Route exact path='/' component={Main}/>
-          <Route path='/about' component={About}/>
-          <Route path='/contact' component={Contact}/>
-        </Switch>
+        <TransitionGroup>
+          <CSSTransition
+              timeout={300}
+              classNames='fade'
+              key={location.key}>
+            <Switch>
+              <Route exact path='/' component={Main}/>
+              <Route path='/about' component={About}/>
+              <Route path='/contact' component={Contact}/>
+            </Switch>
+           </CSSTransition>
+        </TransitionGroup>
       </main>
       <Footer/>
     </div>

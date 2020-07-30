@@ -2,40 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a95f8dc0-5fb2-4a7e-90a9-33fc35940ac9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/animation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/calendar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/form.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/landing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/linked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/lumber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/music.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/parser.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/task.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/cv2.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Downloads/Instant" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../table" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,11 +52,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\misiy\WebstormProjects\portfolio\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\misiy\WebstormProjects\portfolio\src" />
       <recent name="C:\Users\misiy\WebstormProjects\portfolio\src\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\misiy\WebstormProjects\portfolio\src" />
     </key>
   </component>
@@ -120,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595923992078</updated>
       <workItem from="1595923993616" duration="25959000" />
+      <workItem from="1596089728862" duration="14982000" />
     </task>
     <servers />
   </component>
@@ -134,17 +113,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="542" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595934801614" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596023800786">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596109303695">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596023800786" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596109303695" />
     <state x="456" y="258" width="705" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595934845021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="456" y="258" width="705" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1595934845021" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595939593895">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596090895076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595939593895" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596090895076" />
   </component>
 </project>
