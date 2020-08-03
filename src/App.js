@@ -14,10 +14,10 @@ function App({location}) {
       <main>
         <TransitionGroup>
           <CSSTransition
-              timeout={300}
-              classNames='fade'
-              key={location.key}>
-            <Switch>
+              timeout={500}
+              classNames='page'
+              key={location.pathname}>
+            <Switch location={location}>
               <Route exact path='/' component={Main}/>
               <Route path='/about' component={About}/>
               <Route path='/contact' component={Contact}/>

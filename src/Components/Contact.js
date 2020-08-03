@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Contact = () => {
   let [name, setName] = useState('Noname');
   let [email, setEmail] = useState('');
@@ -8,7 +7,7 @@ const Contact = () => {
   let [body, setBody] = useState('');
 
   return (
-      <>
+      <div className='abc'>
         <div className="main contact">
           <h1>Contact me</h1>
         </div>
@@ -49,7 +48,7 @@ const Contact = () => {
                                                         }}
                                                         type="submit"/></a>
           </div>
-      </>
+      </div>
   );
 };
 

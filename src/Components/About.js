@@ -1,9 +1,9 @@
 import React from 'react';
-
+import MyPDF from '../files/cv2.pdf';
 
 const About = () => {
   return (
-      <>
+      <div className='abc'>
         <div className="main about"/>
         <div className="aboutMe">
           <h3>Yury Misiyevich</h3>
@@ -17,9 +17,9 @@ const About = () => {
             <li>Live in Minsk, Belarus for 26 years</li>
             <li>Like photography, hockey, building</li>
           </ul>
-          <a href="https://yadi.sk/i/hUb4NiUX3kLzig">Download CV</a>
+          <a href={MyPDF} target="_blank" rel='noopener noreferrer'>Download CV</a>
         </div>
-      </>
+      </div>
   );
 };
 
