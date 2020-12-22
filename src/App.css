@@ -217,31 +217,33 @@ h2{
     background: url('./img/news.jpg') no-repeat center center;
 }
 .project-item:nth-child(2){
-    background: url('./img/lumber.jpg') no-repeat center center;
+    background: url('./img/inst.jpg') no-repeat center center;
 }
 .project-item:nth-child(3){
-    background: url('./img/domchat.jpg') no-repeat center center;
+    background: url('./img/lumber.jpg') no-repeat center center;
 }
 .project-item:nth-child(4){
-    background: url('./img/calendar.jpg') no-repeat center center;
+    background: url('./img/domchat.jpg') no-repeat center center;
 }
 .project-item:nth-child(5){
-    background: url('./img/animation.jpg') no-repeat center center;
+    background: url('./img/calendar.jpg') no-repeat center center;
 }
 .project-item:nth-child(6){
+    background: url('./img/animation.jpg') no-repeat center center;
+}
+.project-item:nth-child(7){
     background: url('img/music.jpg') no-repeat center center;
 }
-
-.project-item:nth-child(7){
+.project-item:nth-child(8){
     background: url('./img/task.jpg') no-repeat center center;
 }
-.project-item:nth-child(8){
+.project-item:nth-child(9){
     background: url('./img/parser.jpg') no-repeat center center;
 }
-.project-item:nth-child(9){
+.project-item:nth-child(10){
     background: url('./img/form.jpg') no-repeat center center;
 }
-.project-item:nth-child(10){
+.project-item:nth-child(11){
     background: url('./img/landing.jpg') no-repeat center center;
 }
 .project-item:nth-child(n){

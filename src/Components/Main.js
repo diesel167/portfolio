@@ -18,6 +18,10 @@ const Main = () => {
                 <i className="fa fa-phone" aria-hidden="true"/></a>
             </div>
             <div className="project-item">
+              <a href="https://diesel167.github.io/instafaves/">
+                <i className="fa fa-phone" aria-hidden="true"/></a>
+            </div>
+            <div className="project-item">
               <a href="https://diesel167.github.io/lumber_calc/">
                 <i className="fa fa-phone" aria-hidden="true"/></a>
             </div>
